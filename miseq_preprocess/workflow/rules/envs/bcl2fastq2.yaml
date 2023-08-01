@@ -1,0 +1,14 @@
+name: tester
+channels:
+  - bih-cubi
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=4.5=1_gnu
+  - bcl2fastq2=2.20.0.422=2
+  - libgcc=7.2.0=h69d50b8_2
+  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgomp=9.3.0=h5101ec6_17
+  - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - zlib=1.2.12=h7f8727e_2
+prefix: /grid/home/nbourgeois/.conda/envs/tester

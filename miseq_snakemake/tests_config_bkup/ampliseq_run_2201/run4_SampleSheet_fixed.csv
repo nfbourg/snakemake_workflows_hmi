@@ -1,0 +1,26 @@
+[Header]
+Local Run Manager Analysis Id,45045
+Experiment Name,Ampliseq 2-3 repeat
+Date,2022-02-17
+Module,RNA Amplicon - 2.0.1
+Workflow,RNA Amplicon
+Library Prep Kit,AmpliSeq UD Indexes (24)
+Description,human transcriptome panel
+Chemistry,Amplicon
+
+[Manifests]
+O,Transcriptome.rna_manifest.20190313.txt
+
+[Reads]
+151
+151
+
+[Settings]
+adapter,CTGTCTCTTATACACATCT
+
+[Data]
+Sample_ID,Sample_Group,Description,Index_Plate_Well,index,I7_Index_ID,index2,I5_Index_ID,Sample_Project,Manifest
+ThompsonD48_3,thompson,organoid,C01,CATAGAGT,7007,ACGCCGCA,5039,,O
+ThompsonD24_2,thompson,organoid,D02,GTCGGAGC,7026,TGCCACCA,5036,,O
+StemCellD49_2,stemcell,organoid,E01,TCTCTACT,7015,CGCAGACG,5003,,O
+HUM180201A,PHH,phh,A02,GCAGAATT,7023,AACCGCGG,5013,,O

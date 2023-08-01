@@ -1,0 +1,25 @@
+# Description of what the pipeline does
+
+This pipeline requires 4 items:
+1. Sequencing data folder name (located in /data/Genomics/Upcoming_Miseq_Runs)
+2. Reference file location 
+3. Config file (config.yaml)
+4. Gene names and coordinates of interest
+
+
+# Instuctions on how to use it
+
+1. Create a copy of the config_template.yaml in your target directory and fill it out 
+2. Enter the sequencing data folder name in the input_data_dirs field 
+3. Enter the reference file location in the reference field
+4. Enter the gene names and coordinates of iterest in the gene field using this format:
+    
+    'gene1,1-10,20-30;gene2,50-60'
+    
+    No spaces
+    gene name, coordinate range(s)
+    Add a semicolon between the genes if using multiple
+5. Save the config file
+6. Open a terminal and run 'sh snakemake_miseq.sh 40'
+
+# Descriptions of outputs

@@ -1,0 +1,21 @@
+
+## prefix for input data dirs
+miseq_output: /data/Genomics/Upcoming_MiSeq_Runs
+
+## directories with pacbio data
+input_data_dirs:
+  D1: 210723_M05046_0144_000000000-J6W52
+
+use_default_sheets: True  
+
+## samples in corresponding directories, only fill if use default is false
+sample_sheets:
+  S1: 
+
+reference: /data/JiraAnalyses/HMI103/HMI103-174/references/Funakoshi_Alu__Off-Target_priming__LNA_blocking_sites_85p_156bp.fa
+
+quantify: False 
+
+# misc flags
+bcl2fastq_flags:
+bad_run: False

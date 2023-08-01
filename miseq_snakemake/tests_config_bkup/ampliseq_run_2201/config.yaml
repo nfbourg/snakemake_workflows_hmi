@@ -1,0 +1,27 @@
+
+## prefix for input data dirs
+miseq_output: /data/Genomics/Upcoming_MiSeq_Runs
+
+## directories with pacbio data
+input_data_dirs:
+  D1: 220120_M05046_0147_000000000-JJJF7
+  D2: 220210_M05046_0148_000000000-K7V4M
+  D3: 220215_M05046_0149_000000000-K7NKR
+  D4: 220217_M05046_0150_000000000-K7WF9
+
+use_default_sheets: False
+
+## samples in corresponding directories, only fill if use default is false
+sample_sheets:
+  S1: run1_SampleSheet_fixed.csv
+  S2: run2_SampleSheet_fixed.csv
+  S3: run3_SampleSheet_fixed.csv
+  S4: run4_SampleSheet_fixed.csv
+
+reference: /grid/home/nbourgeois/wip/ampliseq_compare/illumina_file/illumina_ampliseq_targets_ref.fa
+
+ampliseq: True
+snp_calling: False
+# misc flags
+bcl2fastq_flags: ''
+bad_run: False

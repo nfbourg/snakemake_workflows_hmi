@@ -1,0 +1,26 @@
+[Header]
+Local Run Manager Analysis Id,39039
+Experiment Name,Ampliseq Run 2_1
+Date,2022-01-20
+Module,RNA Amplicon - 2.0.1
+Workflow,RNA Amplicon
+Library Prep Kit,AmpliSeq Library PLUS for Illumina (96)
+Description,Human Transcriptome Hep Organoid Biological Replicates
+Chemistry,Amplicon
+
+[Manifests]
+A,Transcriptome.rna_manifest.20190313.txt
+
+[Reads]
+151
+151
+
+[Settings]
+adapter,CTGTCTCTTATACACATCT
+
+[Data]
+Sample_ID,Sample_Group,Description,Index_Plate_Well,index,I7_Index_ID,index2,I5_Index_ID,Sample_Project,Manifest
+StemcellD49_1,,,D01,TGCGAGAC,7008,GTATTATG,5040,test,A
+ThompsonD48_1,,,A01,GTGAATAT,7005,ACATAGCG,5007,test,A
+iPSC_1,,,B02,ATGAGGCC,7024,GGTTATAA,5014,test,A
+HUM4244_1,,,G01,CCAAGTCT,7017,CTAGCTTG,5017,test,A

@@ -1,0 +1,41 @@
+# Version 0.1
+
+## Prefix for Data Directories
+miseq_output: /data/Genomics/Upcoming_MiSeq_Runs
+
+## Miseq Directories
+input_data_dirs:
+  D1: [dir_1]
+  D2: [dir_2]
+
+use_default_sheets: True
+
+## samples in corresponding directories, only fill if use default is false
+sample_sheets:
+  S1: [sample_sheet_1]
+  S2: [sample_sheet_2]
+
+
+#sort by number of mutations wanted in tsv output
+m_num: [number (int)]
+
+# reference locations
+reference: 
+  OTC_ref:
+    file_loc: "OTC.dna"
+    guide_name: "sgOCT_F1"
+
+  ATP7B1_ref:
+    file_loc: "ATP7B.dna"
+    guide_name: "sgATP7B_2F"
+
+
+# Methods
+ampliseq: False 
+snp_calling: False
+only_fastq: True
+
+
+# misc flags
+bcl2fastq_flags:
+bad_run: False

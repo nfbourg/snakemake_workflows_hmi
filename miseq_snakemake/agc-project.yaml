@@ -1,0 +1,18 @@
+name: SnakemakeTest
+schemaVersion: 1
+workflows:
+  miseq:
+    type:
+      language: snakemake
+      version: 1.0
+    sourceURL: workflow/miseq
+  # countries:
+  #   type:
+  #     language: snakemake
+  #     version: 1.0
+  #   sourceURL: workflow/countries
+contexts:
+  snakemakeContext:
+    engines:
+      - type: snakemake
+        engine: snakemake

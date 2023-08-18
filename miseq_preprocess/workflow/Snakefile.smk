@@ -40,9 +40,9 @@ else:
 rule all:
     input:
         expand("data/raw/fastq/{sample}_R{read}.fastq.gz",sample=samps,read=[1,2]),
-        # expand("data/aligned/{sample}.sorted.bam",sample=samps),
+        expand("data/aligned/{sample}.sorted.bam",sample=samps),
         "qc/multiqc.html",
-        # 'qc/all_samples.csv'
+        'qc/all_samples.csv'
 
 # Run Demux
 include: 'rules/fastq.smk'
